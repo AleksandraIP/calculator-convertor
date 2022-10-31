@@ -10,6 +10,7 @@ function Converter(){
     const [result, setResult] = useState(0);
     const first = useRef();
     const second = useRef();
+
     function convert(){
         if (first.current.value === 'Meter'){
             switch (second.current.value){

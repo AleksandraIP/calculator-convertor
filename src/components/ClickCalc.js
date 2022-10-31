@@ -34,7 +34,7 @@ function CountButton (props) {
 }
 
 function ClickCalc(props){
-    const [counts, setCounts] = useState('');
+    const [counts, setCounts] = useState('0');
     const [result, setResult] = useState('');
 
     function applyExpression (countedNumber){
