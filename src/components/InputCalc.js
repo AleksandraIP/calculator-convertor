@@ -26,7 +26,7 @@ function InputCalc (props){
     }
 
     return(
-        <Flex w='100%' justifyContent='center'>
+        <Flex w='100%' justifyContent='center' alignItems='start'>
             <Flex justifyContent='center' alignItems='center' border='2px' borderRadius='8px' borderColor='gray.50'>
                 <Input type='text' value={counts} border='transparent' onKeyDown={(e)=>{sendDataToHistory(e)}} onChange={(e)=>{updateCounts(e)}} />
                 <Text textColor='tomato' px='8px'>{result}</Text>

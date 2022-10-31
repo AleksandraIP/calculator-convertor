@@ -15,8 +15,6 @@ function History(props) {
     )
 }
 
-
-
 function Calculator(){
     const [calcType, setCalcType] = useState('ClickCalc');
     const [history, setHistory] =useState([]);
@@ -41,7 +39,7 @@ function Calculator(){
     }
 
     return(
-        <Box display='flex' flexDirection='column' justifyContent='space-between' m='50px' alignItems='center' h='90%'>
+        <Box display='flex' flexDirection='column' justifyContent='space-between' m='50px' alignItems='center' h='40%'>
             <Button onClick={calcTypeChange}>
                 Change CalcType
             </Button>
